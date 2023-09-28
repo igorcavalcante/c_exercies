@@ -9,7 +9,7 @@ Exercise about dinamyc memory allocation
 
 int main() {
     FILE *f = fopen("content.dat", "wb");
-    const char *content = "Hello Wr Kits";
+    const char *content = "Hello from my binary reader";
     unsigned char size = strlen(content);
 
 
